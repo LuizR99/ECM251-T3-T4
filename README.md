@@ -88,8 +88,16 @@ As rotas foram definidas separadamente seguindo a documentação do ktor (https:
 A Application.kt é onde a API executa as rotas e tem como porta definida: "http://localhost:8080/"
 
 
-
-
+## FRONT-END
+  
+Algumas funções criadas em js para tratar os dados fornecidos pela API:
+  
+  * Get(url) → manda um GET para a API com a url fornecida como parâmetro
+  * AVG(reviews, elementID) → faz a média das reviews de um filme selecionado através do elementID.
+  * top6(element, reviews) → separa o top 6 ratings mais altos em ordem decrescente.
+  * tipo(element, type) → separa os elementos de acordo com o tipo dele (filme/série).
+  
+A parte do front está incompleta, faltando algumas implementações como: Login, Avaliação (formulário), Botões "Avaliar agora",  preenchimento de algumas páginas, barra de busca, imagens, etc.
 
 
 
